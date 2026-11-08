@@ -79,3 +79,6 @@ h2{letter-spacing:-.045em}
 .portfolio-card figcaption span:last-child{font:italic 17px 'Cormorant Garamond',Georgia,serif}
 @media(max-width:900px){.portfolio{padding-top:90px;padding-bottom:95px}.portfolio-head{grid-template-columns:.7fr 1.7fr;row-gap:20px}.portfolio-intro{grid-column:2;margin:0}.portfolio-grid{grid-template-rows:220px 220px}}
 @media(max-width:650px){.portfolio{padding-top:78px;padding-bottom:80px}.portfolio-head{display:block;margin-bottom:28px}.portfolio-head .section-label{margin-bottom:30px}.portfolio-head h2{font-size:58px}.portfolio-intro{margin:17px 0 0;max-width:300px}.portfolio-grid{grid-template-columns:1fr 1fr;grid-template-rows:220px 190px 190px;gap:9px}.portfolio-card-tall{grid-column:span 2;grid-row:auto}.portfolio-card-wide{grid-column:span 2}.portfolio-card figcaption{padding:11px 10px;align-items:flex-end}.portfolio-card figcaption span:first-child{font-size:7px}.portfolio-card figcaption span:last-child{font-size:14px}}
+.portfolio-link{display:table;margin:30px auto 0;padding:15px 20px;border:1px solid #a57c58;color:#35443d;font-size:9px;letter-spacing:.12em;text-transform:uppercase;transition:background .2s,color .2s}
+.portfolio-link span{margin-left:18px;font-size:14px;color:#a57c58}
+.portfolio-link:hover{background:#35443d;color:#f5f2eb}
